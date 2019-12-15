@@ -147,11 +147,15 @@ html, body {
       @media (min-width: 320px) and (max-width: 640px) {
         .header .wrap .linkbar {
           width: 100%;
-          float: none; } }
+          float: none;
+          height: auto;
+          display: block; } }
       @media (min-width: 640px) and (max-width: 960px) {
         .header .wrap .linkbar {
           width: 100%;
-          float: none; } }
+          float: none;
+          height: 150px;
+          display: block; } }
       .header .wrap .linkbar ul {
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
@@ -378,6 +382,9 @@ html, body {
     height: 120px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
+    @media (min-width: 640px) and (max-width: 960px) {
+      .footer .wrap .logo {
+        margin-left: 41%; } }
     @media (min-width: 320px) and (max-width: 640px) {
       .footer .wrap .logo {
         margin-left: 32%; } }
@@ -394,6 +401,9 @@ html, body {
       background-image: url("../img/smlogo.png"); }
   .footer .wrap .icon {
     margin-left: 45%; }
+    @media (min-width: 640px) and (max-width: 960px) {
+      .footer .wrap .icon {
+        margin-left: 41%; } }
     @media (min-width: 320px) and (max-width: 640px) {
       .footer .wrap .icon {
         margin-left: 32%; } }

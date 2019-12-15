@@ -109,10 +109,14 @@ html, body {
         @include mobile{
             width:100%;
             float:none;
+            height:auto;
+            display:block;
         }
         @include pad{
             width:100%;
             float:none;
+            height:150px;
+            display:block;
         }
     
         ul{
@@ -122,6 +126,7 @@ html, body {
             display:flex;
             @include pad{
                 display:flex;
+
             }
             @include mobile{
                width:100%;
@@ -388,6 +393,9 @@ html, body {
         width:100px;
         height:120px;
         box-sizing:border-box;
+        @include pad{
+            margin-left:41%;
+        }
         @include mobile{
             margin-left:32%;
         }
@@ -398,6 +406,9 @@ html, body {
     }
     .icon{
         margin-left:45%;
+        @include pad{
+            margin-left:41%;
+        }
         @include mobile{
             margin-left:32%;
         }
@@ -411,7 +422,6 @@ html, body {
         margin-top:50px;
         line-height:1.5;
         text-align:center;
-
     }
   
  }
